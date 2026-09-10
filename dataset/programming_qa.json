@@ -1,0 +1,1502 @@
+[
+  {
+    "id": 1,
+    "question": "How do variables work in Python?",
+    "answer": "A Python variable is a name bound to an object. You create it with assignment such as score = 10, and Python infers the object type at runtime.",
+    "language": "Python",
+    "category": "Variables",
+    "difficulty": "Beginner",
+    "keywords": "python variables assignment dynamic typing names objects",
+    "related_topics": "Data types;Assignment;Type conversion"
+  },
+  {
+    "id": 2,
+    "question": "What are common Python data types?",
+    "answer": "Common built-in types include int, float, str, bool, list, tuple, set, dict, and NoneType. Each type defines the operations available for its values.",
+    "language": "Python",
+    "category": "Data Types",
+    "difficulty": "Beginner",
+    "keywords": "python data types int float string boolean list tuple set dictionary",
+    "related_topics": "Variables;Collections;Type conversion"
+  },
+  {
+    "id": 3,
+    "question": "Explain operators in Python.",
+    "answer": "Python provides arithmetic, comparison, logical, assignment, membership, identity, and bitwise operators. Operators combine or compare values to produce a result.",
+    "language": "Python",
+    "category": "Operators",
+    "difficulty": "Beginner",
+    "keywords": "python operators arithmetic comparison logical membership identity",
+    "related_topics": "Expressions;Conditions;Boolean logic"
+  },
+  {
+    "id": 4,
+    "question": "How do if statements work in Python?",
+    "answer": "An if statement runs a block when its condition is true. Use elif for additional conditions and else for the fallback case. Indentation defines each block.",
+    "language": "Python",
+    "category": "Conditional Statements",
+    "difficulty": "Beginner",
+    "keywords": "python if elif else conditional statements indentation",
+    "related_topics": "Boolean logic;Comparisons;Control flow"
+  },
+  {
+    "id": 5,
+    "question": "What is the difference between for and while loops in Python?",
+    "answer": "A for loop iterates over items in an iterable, while a while loop repeats while a condition stays true. Use break to stop and continue to skip to the next iteration.",
+    "language": "Python",
+    "category": "Loops",
+    "difficulty": "Beginner",
+    "keywords": "python for while loop break continue iterable",
+    "related_topics": "Iteration;Range;Control flow"
+  },
+  {
+    "id": 6,
+    "question": "How do you define a function in Python?",
+    "answer": "Use def followed by a name and parameters. A function groups reusable logic and can send a value back with return.",
+    "language": "Python",
+    "category": "Functions",
+    "difficulty": "Beginner",
+    "keywords": "python function def parameters return reusable",
+    "related_topics": "Arguments;Scope;Lambda functions"
+  },
+  {
+    "id": 7,
+    "question": "What is a list in Python?",
+    "answer": "A list is an ordered, mutable collection that can contain mixed values. Use square brackets, indexes, slicing, append, and remove to work with it.",
+    "language": "Python",
+    "category": "Lists",
+    "difficulty": "Beginner",
+    "keywords": "python list ordered mutable collection indexing slicing append",
+    "related_topics": "Tuples;Sets;Dictionaries"
+  },
+  {
+    "id": 8,
+    "question": "How are strings handled in Python?",
+    "answer": "Strings are immutable sequences of Unicode characters. You can index and slice them, use methods such as lower and split, and format them with f-strings.",
+    "language": "Python",
+    "category": "Strings",
+    "difficulty": "Beginner",
+    "keywords": "python strings immutable unicode slicing split f-string",
+    "related_topics": "Lists;Formatting;Regular expressions"
+  },
+  {
+    "id": 9,
+    "question": "What is a Python dictionary?",
+    "answer": "A dictionary stores key-value pairs and provides fast lookup by key. Literal syntax uses braces, such as {\"name\": \"Asha\"}.",
+    "language": "Python",
+    "category": "Dictionaries",
+    "difficulty": "Beginner",
+    "keywords": "python dictionary key value mapping lookup",
+    "related_topics": "Lists;Sets;JSON"
+  },
+  {
+    "id": 10,
+    "question": "When should you use a tuple in Python?",
+    "answer": "A tuple is an ordered immutable collection. It is useful for fixed records, multiple return values, and values that should not be changed.",
+    "language": "Python",
+    "category": "Tuples",
+    "difficulty": "Beginner",
+    "keywords": "python tuple immutable ordered collection",
+    "related_topics": "Lists;Unpacking;Sets"
+  },
+  {
+    "id": 11,
+    "question": "What is a set in Python?",
+    "answer": "A set is an unordered collection of unique hashable values. It supports efficient membership tests and union, intersection, and difference operations.",
+    "language": "Python",
+    "category": "Sets",
+    "difficulty": "Beginner",
+    "keywords": "python set unique unordered membership union intersection",
+    "related_topics": "Lists;Dictionaries;Set operations"
+  },
+  {
+    "id": 12,
+    "question": "How does exception handling work in Python?",
+    "answer": "Place risky code in try, handle expected errors in except, run cleanup in finally, and use else for code that runs only when no exception occurs.",
+    "language": "Python",
+    "category": "Exception Handling",
+    "difficulty": "Intermediate",
+    "keywords": "python try except else finally exceptions errors",
+    "related_topics": "Custom exceptions;Debugging;File handling"
+  },
+  {
+    "id": 13,
+    "question": "How do you read a file safely in Python?",
+    "answer": "Use with open(path, encoding=\"utf-8\") as file so the file closes automatically. Methods such as read, readline, and readlines retrieve text.",
+    "language": "Python",
+    "category": "File Handling",
+    "difficulty": "Intermediate",
+    "keywords": "python file handling open with read write encoding",
+    "related_topics": "Exceptions;CSV;Context manager"
+  },
+  {
+    "id": 14,
+    "question": "What is a class and object in Python?",
+    "answer": "A class is a blueprint defining data and behavior. An object is an instance of that class. The __init__ method commonly initializes instance attributes.",
+    "language": "Python",
+    "category": "OOP",
+    "difficulty": "Intermediate",
+    "keywords": "python class object init oop instance",
+    "related_topics": "Methods;Inheritance;Encapsulation"
+  },
+  {
+    "id": 15,
+    "question": "Explain inheritance in Python.",
+    "answer": "Inheritance lets a child class reuse or extend a parent class. The child can call parent behavior with super and override methods when needed.",
+    "language": "Python",
+    "category": "OOP",
+    "difficulty": "Intermediate",
+    "keywords": "python inheritance parent child class super override",
+    "related_topics": "Polymorphism;Classes;Method overriding"
+  },
+  {
+    "id": 16,
+    "question": "What is a module in Python?",
+    "answer": "A module is a Python file containing reusable definitions. import loads it, and from module import name selects a particular definition.",
+    "language": "Python",
+    "category": "Modules",
+    "difficulty": "Intermediate",
+    "keywords": "python module import package reusable code",
+    "related_topics": "Packages;Namespaces;Virtual environments"
+  },
+  {
+    "id": 17,
+    "question": "What is a list comprehension?",
+    "answer": "A list comprehension creates a list from an iterable in one expression, optionally filtering values. For example, [x*x for x in numbers if x > 0].",
+    "language": "Python",
+    "category": "Comprehensions",
+    "difficulty": "Intermediate",
+    "keywords": "python list comprehension iterable filter expression",
+    "related_topics": "Loops;Generators;Functional programming"
+  },
+  {
+    "id": 18,
+    "question": "What is a generator in Python?",
+    "answer": "A generator produces values lazily using yield. It remembers its execution state between values, which saves memory for large sequences.",
+    "language": "Python",
+    "category": "Generators",
+    "difficulty": "Advanced",
+    "keywords": "python generator yield lazy iteration memory",
+    "related_topics": "Iterators;Comprehensions;Streams"
+  },
+  {
+    "id": 19,
+    "question": "What is a Python decorator?",
+    "answer": "A decorator is a callable that wraps another function or class to add behavior without editing the wrapped object. The @ syntax applies it.",
+    "language": "Python",
+    "category": "Decorators",
+    "difficulty": "Advanced",
+    "keywords": "python decorator wrapper callable at syntax",
+    "related_topics": "Functions;Closures;Metadata"
+  },
+  {
+    "id": 20,
+    "question": "What is a lambda function in Python?",
+    "answer": "A lambda is a small anonymous function written as lambda parameters: expression. It is useful for short callbacks, often with sorted or map.",
+    "language": "Python",
+    "category": "Lambda",
+    "difficulty": "Intermediate",
+    "keywords": "python lambda anonymous function callback map sorted",
+    "related_topics": "Functions;Map;Filter"
+  },
+  {
+    "id": 21,
+    "question": "How do you convert types in Python?",
+    "answer": "Use constructors such as int, float, str, list, and bool when conversion is valid. Invalid text conversion raises ValueError, so validate input when needed.",
+    "language": "Python",
+    "category": "Type Conversion",
+    "difficulty": "Beginner",
+    "keywords": "python type conversion int float str bool valueerror",
+    "related_topics": "Data types;Input validation;Exceptions"
+  },
+  {
+    "id": 22,
+    "question": "What is variable scope in Python?",
+    "answer": "Python resolves names through local, enclosing, global, and built-in scopes, often called LEGB. A local name exists only inside its function unless declared nonlocal or global.",
+    "language": "Python",
+    "category": "Scope",
+    "difficulty": "Intermediate",
+    "keywords": "python scope local enclosing global builtin legb",
+    "related_topics": "Functions;Closures;Namespaces"
+  },
+  {
+    "id": 23,
+    "question": "How can Python code be tested?",
+    "answer": "Unit tests check small pieces of behavior in isolation. The unittest module is built in, while pytest is a popular external test runner with simple assertions.",
+    "language": "Python",
+    "category": "Testing",
+    "difficulty": "Intermediate",
+    "keywords": "python testing unit test unittest pytest assertions",
+    "related_topics": "Debugging;Test cases;Quality assurance"
+  },
+  {
+    "id": 24,
+    "question": "Why use a Python virtual environment?",
+    "answer": "A virtual environment isolates project packages from the system Python and from other projects. Create one with python -m venv .venv and activate it before installing requirements.",
+    "language": "Python",
+    "category": "Virtual Environments",
+    "difficulty": "Beginner",
+    "keywords": "python virtual environment venv packages isolation",
+    "related_topics": "Pip;Requirements;Deployment"
+  },
+  {
+    "id": 25,
+    "question": "How do you work with JSON in Python?",
+    "answer": "The json module converts JSON text to Python values with loads and dumps, or reads and writes files with load and dump.",
+    "language": "Python",
+    "category": "JSON",
+    "difficulty": "Intermediate",
+    "keywords": "python json loads dumps serialization api",
+    "related_topics": "Dictionaries;Files;Data exchange"
+  },
+  {
+    "id": 26,
+    "question": "How are variables declared in Java?",
+    "answer": "A Java variable has a declared type and a name, for example int count = 3. The compiler checks that assigned values are compatible with the declared type.",
+    "language": "Java",
+    "category": "Variables",
+    "difficulty": "Beginner",
+    "keywords": "java variables declaration static typing int string",
+    "related_topics": "Data types;Constants;Scope"
+  },
+  {
+    "id": 27,
+    "question": "What are Java primitive data types?",
+    "answer": "Java primitives include byte, short, int, long, float, double, char, and boolean. String and arrays are reference types rather than primitives.",
+    "language": "Java",
+    "category": "Data Types",
+    "difficulty": "Beginner",
+    "keywords": "java primitive data types byte short int long float double char boolean",
+    "related_topics": "Wrapper classes;Variables;Casting"
+  },
+  {
+    "id": 28,
+    "question": "What operators does Java provide?",
+    "answer": "Java supports arithmetic, relational, logical, assignment, unary, bitwise, shift, and conditional operators. Operator precedence controls evaluation order.",
+    "language": "Java",
+    "category": "Operators",
+    "difficulty": "Beginner",
+    "keywords": "java operators arithmetic relational logical assignment precedence",
+    "related_topics": "Expressions;Boolean logic;Conditions"
+  },
+  {
+    "id": 29,
+    "question": "How does an if else statement work in Java?",
+    "answer": "The if block runs when a boolean condition is true; else runs otherwise. else if chains additional conditions.",
+    "language": "Java",
+    "category": "Conditional Statements",
+    "difficulty": "Beginner",
+    "keywords": "java if else conditional statement boolean",
+    "related_topics": "Switch;Boolean logic;Control flow"
+  },
+  {
+    "id": 30,
+    "question": "What are Java for and while loops?",
+    "answer": "for is convenient when initialization, condition, and update belong together. while repeats while a condition is true; do-while always runs once before checking.",
+    "language": "Java",
+    "category": "Loops",
+    "difficulty": "Beginner",
+    "keywords": "java for while do while loops iteration",
+    "related_topics": "Break;Continue;Arrays"
+  },
+  {
+    "id": 31,
+    "question": "What is a method in Java?",
+    "answer": "A method is a named block of behavior inside a class. Its signature includes the name and parameter types, and it may return a declared type or void.",
+    "language": "Java",
+    "category": "Methods",
+    "difficulty": "Beginner",
+    "keywords": "java method function return parameters signature",
+    "related_topics": "Overloading;Classes;Scope"
+  },
+  {
+    "id": 32,
+    "question": "What is an array in Java?",
+    "answer": "An array stores a fixed number of values of one type. Indexing starts at zero, and the length property gives its size.",
+    "language": "Java",
+    "category": "Arrays",
+    "difficulty": "Beginner",
+    "keywords": "java array fixed size indexing length collection",
+    "related_topics": "Loops;ArrayList;Memory"
+  },
+  {
+    "id": 33,
+    "question": "How are strings represented in Java?",
+    "answer": "String is an immutable class representing text. Use equals for content comparison, not ==, which compares references.",
+    "language": "Java",
+    "category": "Strings",
+    "difficulty": "Beginner",
+    "keywords": "java string immutable equals comparison text",
+    "related_topics": "StringBuilder;Characters;Formatting"
+  },
+  {
+    "id": 34,
+    "question": "What is a class in Java?",
+    "answer": "A class defines fields and methods for objects. Objects are created with new, which allocates an instance and calls a constructor.",
+    "language": "Java",
+    "category": "Classes",
+    "difficulty": "Beginner",
+    "keywords": "java class object fields methods constructor new",
+    "related_topics": "OOP;Encapsulation;Constructors"
+  },
+  {
+    "id": 35,
+    "question": "What is a constructor in Java?",
+    "answer": "A constructor initializes a new object and has the class name with no return type. Java supplies a default constructor only when no constructor is declared.",
+    "language": "Java",
+    "category": "Constructors",
+    "difficulty": "Intermediate",
+    "keywords": "java constructor initialize object no return type",
+    "related_topics": "Classes;Overloading;this keyword"
+  },
+  {
+    "id": 36,
+    "question": "Explain inheritance in Java.",
+    "answer": "Inheritance lets a subclass extend a superclass and reuse accessible fields and methods. Java uses extends for classes and supports single class inheritance.",
+    "language": "Java",
+    "category": "OOP",
+    "difficulty": "Intermediate",
+    "keywords": "java inheritance extends superclass subclass oop",
+    "related_topics": "Polymorphism;Overriding;Interfaces"
+  },
+  {
+    "id": 37,
+    "question": "What is polymorphism in Java?",
+    "answer": "Polymorphism allows a superclass reference to refer to a subclass object. At runtime, an overridden method is selected according to the actual object.",
+    "language": "Java",
+    "category": "OOP",
+    "difficulty": "Intermediate",
+    "keywords": "java polymorphism overriding dynamic dispatch oop",
+    "related_topics": "Inheritance;Interfaces;Abstraction"
+  },
+  {
+    "id": 38,
+    "question": "What is encapsulation in Java?",
+    "answer": "Encapsulation keeps state private and exposes controlled operations through methods. Private fields with public getters and setters are a common example.",
+    "language": "Java",
+    "category": "OOP",
+    "difficulty": "Intermediate",
+    "keywords": "java encapsulation private fields getters setters",
+    "related_topics": "Classes;Abstraction;Access modifiers"
+  },
+  {
+    "id": 39,
+    "question": "What is an interface in Java?",
+    "answer": "An interface defines a contract that implementing classes must fulfill. A class can implement multiple interfaces, supporting a form of multiple type inheritance.",
+    "language": "Java",
+    "category": "OOP",
+    "difficulty": "Intermediate",
+    "keywords": "java interface implements contract abstract methods",
+    "related_topics": "Abstraction;Polymorphism;Default methods"
+  },
+  {
+    "id": 40,
+    "question": "How does try catch work in Java?",
+    "answer": "Put code that may fail in try and handle a matching exception in catch. finally is used for cleanup that should occur whether an exception happens or not.",
+    "language": "Java",
+    "category": "Exception Handling",
+    "difficulty": "Intermediate",
+    "keywords": "java try catch finally exception handling",
+    "related_topics": "Throws;Custom exceptions;Resources"
+  },
+  {
+    "id": 41,
+    "question": "What is ArrayList in Java?",
+    "answer": "ArrayList is a resizable list implementation from java.util. It preserves insertion order and offers indexed access, but inserting in the middle may shift elements.",
+    "language": "Java",
+    "category": "Collections",
+    "difficulty": "Intermediate",
+    "keywords": "java arraylist collection resizable list java util",
+    "related_topics": "List;Generics;LinkedList"
+  },
+  {
+    "id": 42,
+    "question": "Why are generics used in Java?",
+    "answer": "Generics parameterize classes and methods with types, such as List<String>. They provide compile-time type safety and reduce explicit casts.",
+    "language": "Java",
+    "category": "Generics",
+    "difficulty": "Intermediate",
+    "keywords": "java generics type safety list string parameterized",
+    "related_topics": "Collections;Wildcards;Type erasure"
+  },
+  {
+    "id": 43,
+    "question": "What is a package in Java?",
+    "answer": "A package groups related classes and prevents naming conflicts. The package declaration belongs at the top of a file, and import makes external types easier to reference.",
+    "language": "Java",
+    "category": "Packages",
+    "difficulty": "Beginner",
+    "keywords": "java package import namespace classes",
+    "related_topics": "Modules;Access modifiers;JAR"
+  },
+  {
+    "id": 44,
+    "question": "How can Java read a text file?",
+    "answer": "Use classes such as Files.readString, Files.readAllLines, or BufferedReader from java.nio.file and java.io. Handle IOException and choose a character set deliberately.",
+    "language": "Java",
+    "category": "File Handling",
+    "difficulty": "Intermediate",
+    "keywords": "java file reading files readstring bufferedreader nio ioexception",
+    "related_topics": "Exceptions;Streams;Paths"
+  },
+  {
+    "id": 45,
+    "question": "What is the Java Stream API?",
+    "answer": "Streams process sequences declaratively with operations such as filter, map, and collect. A stream is not a data structure and usually evaluates lazily until a terminal operation.",
+    "language": "Java",
+    "category": "Streams",
+    "difficulty": "Advanced",
+    "keywords": "java stream api filter map collect lazy pipeline",
+    "related_topics": "Lambda;Collections;Functional programming"
+  },
+  {
+    "id": 46,
+    "question": "What is a thread in Java?",
+    "answer": "A thread is an independent path of execution. Create tasks with Runnable or Callable and coordinate shared state carefully to avoid race conditions.",
+    "language": "Java",
+    "category": "Threads",
+    "difficulty": "Advanced",
+    "keywords": "java thread runnable callable concurrency execution",
+    "related_topics": "Synchronization;Executors;Locks"
+  },
+  {
+    "id": 47,
+    "question": "What are Java access modifiers?",
+    "answer": "public is accessible broadly, protected supports package and subclass access, package-private has no keyword, and private is limited to the declaring class.",
+    "language": "Java",
+    "category": "Access Modifiers",
+    "difficulty": "Beginner",
+    "keywords": "java access modifiers public private protected default",
+    "related_topics": "Encapsulation;Packages;Inheritance"
+  },
+  {
+    "id": 48,
+    "question": "What does static mean in Java?",
+    "answer": "A static field or method belongs to the class rather than a particular object. Static methods cannot directly use instance fields without an object.",
+    "language": "Java",
+    "category": "Static",
+    "difficulty": "Beginner",
+    "keywords": "java static class method field instance",
+    "related_topics": "Classes;Main method;Memory"
+  },
+  {
+    "id": 49,
+    "question": "What is the JVM?",
+    "answer": "The Java Virtual Machine runs Java bytecode and provides portability, memory management, and runtime services. The JRE includes the JVM and libraries; the JDK adds development tools.",
+    "language": "Java",
+    "category": "JVM",
+    "difficulty": "Advanced",
+    "keywords": "java jvm bytecode jre jdk runtime",
+    "related_topics": "Compilation;Garbage collection;Portability"
+  },
+  {
+    "id": 50,
+    "question": "What are annotations in Java?",
+    "answer": "Annotations add metadata to code, such as @Override. Tools and frameworks can inspect annotations during compilation or runtime to apply rules.",
+    "language": "Java",
+    "category": "Annotations",
+    "difficulty": "Advanced",
+    "keywords": "java annotations override metadata reflection",
+    "related_topics": "Compiler;Reflection;Frameworks"
+  },
+  {
+    "id": 51,
+    "question": "How are variables declared in C?",
+    "answer": "A C variable declaration specifies a type and identifier, such as int total = 0. C uses static types and stores values in memory locations.",
+    "language": "C",
+    "category": "Variables",
+    "difficulty": "Beginner",
+    "keywords": "c variables declaration static typing int memory",
+    "related_topics": "Data types;Pointers;Scope"
+  },
+  {
+    "id": 52,
+    "question": "What are basic data types in C?",
+    "answer": "C includes char, int, float, double, and void, along with modifiers such as short, long, signed, and unsigned.",
+    "language": "C",
+    "category": "Data Types",
+    "difficulty": "Beginner",
+    "keywords": "c data types char int float double void signed unsigned",
+    "related_topics": "Variables;Casting;Memory"
+  },
+  {
+    "id": 53,
+    "question": "What operators are available in C?",
+    "answer": "C provides arithmetic, relational, logical, assignment, bitwise, increment/decrement, conditional, and pointer operators.",
+    "language": "C",
+    "category": "Operators",
+    "difficulty": "Beginner",
+    "keywords": "c operators arithmetic relational logical bitwise pointer",
+    "related_topics": "Expressions;Conditions;Pointers"
+  },
+  {
+    "id": 54,
+    "question": "How does if else work in C?",
+    "answer": "if evaluates a condition and executes its block when nonzero. else handles the alternative, and else if chains additional tests.",
+    "language": "C",
+    "category": "Conditional Statements",
+    "difficulty": "Beginner",
+    "keywords": "c if else conditional statements zero nonzero",
+    "related_topics": "Switch;Boolean expressions;Control flow"
+  },
+  {
+    "id": 55,
+    "question": "What are loops in C?",
+    "answer": "for, while, and do-while repeat statements. for is useful for counted iteration, while checks before each iteration, and do-while checks after one run.",
+    "language": "C",
+    "category": "Loops",
+    "difficulty": "Beginner",
+    "keywords": "c for while do while loops iteration",
+    "related_topics": "Break;Continue;Arrays"
+  },
+  {
+    "id": 56,
+    "question": "What is a function in C?",
+    "answer": "A function is a reusable block with a return type, name, parameters, and body. A prototype tells the compiler its signature before use.",
+    "language": "C",
+    "category": "Functions",
+    "difficulty": "Beginner",
+    "keywords": "c function return type parameters prototype reusable",
+    "related_topics": "Scope;Recursion;Headers"
+  },
+  {
+    "id": 57,
+    "question": "What is an array in C?",
+    "answer": "An array stores same-type elements contiguously. Its first index is zero and its size is fixed after creation.",
+    "language": "C",
+    "category": "Arrays",
+    "difficulty": "Beginner",
+    "keywords": "c array contiguous fixed size indexing memory",
+    "related_topics": "Pointers;Strings;Loops"
+  },
+  {
+    "id": 58,
+    "question": "How are strings stored in C?",
+    "answer": "A C string is a character array ending with a null character, \\0. Functions such as strlen and strcpy from string.h operate on these arrays.",
+    "language": "C",
+    "category": "Strings",
+    "difficulty": "Beginner",
+    "keywords": "c string char array null terminator strlen strcpy",
+    "related_topics": "Arrays;Pointers;Buffer safety"
+  },
+  {
+    "id": 59,
+    "question": "What is a pointer in C?",
+    "answer": "A pointer stores the address of another object. & obtains an address and * dereferences a pointer to access the pointed value.",
+    "language": "C",
+    "category": "Pointers",
+    "difficulty": "Intermediate",
+    "keywords": "c pointer address dereference ampersand memory",
+    "related_topics": "Arrays;Dynamic memory;References"
+  },
+  {
+    "id": 60,
+    "question": "What is pointer arithmetic in C?",
+    "answer": "Adding one to a typed pointer advances by the size of its pointed type. Pointer arithmetic is meaningful within the same array and must stay within valid bounds.",
+    "language": "C",
+    "category": "Pointers",
+    "difficulty": "Advanced",
+    "keywords": "c pointer arithmetic array bounds memory address",
+    "related_topics": "Arrays;Safety;Iteration"
+  },
+  {
+    "id": 61,
+    "question": "What is a struct in C?",
+    "answer": "A struct groups related fields of different types under one name. Access members with dot for an object and arrow for a pointer to a struct.",
+    "language": "C",
+    "category": "Structures",
+    "difficulty": "Beginner",
+    "keywords": "c struct structure fields dot arrow record",
+    "related_topics": "Unions;Pointers;Typedef"
+  },
+  {
+    "id": 62,
+    "question": "How do malloc and free work in C?",
+    "answer": "malloc allocates uninitialized bytes on the heap and returns a pointer. free releases the block; every successful allocation should have one matching release.",
+    "language": "C",
+    "category": "Dynamic Memory",
+    "difficulty": "Intermediate",
+    "keywords": "c malloc free heap dynamic memory allocation",
+    "related_topics": "calloc;realloc;Memory leaks"
+  },
+  {
+    "id": 63,
+    "question": "How does file handling work in C?",
+    "answer": "fopen opens a file, functions such as fprintf or fgets read/write data, and fclose releases the file resource. Always check for NULL and errors.",
+    "language": "C",
+    "category": "File Handling",
+    "difficulty": "Intermediate",
+    "keywords": "c file fopen fprintf fgets fclose io",
+    "related_topics": "Errors;Streams;Text files"
+  },
+  {
+    "id": 64,
+    "question": "What does the C preprocessor do?",
+    "answer": "Before compilation, it expands directives such as #include and conditional blocks such as #ifdef. #define creates macros, not typed variables.",
+    "language": "C",
+    "category": "Preprocessor",
+    "difficulty": "Beginner",
+    "keywords": "c preprocessor include define ifdef macros",
+    "related_topics": "Headers;Compilation;Constants"
+  },
+  {
+    "id": 65,
+    "question": "What are the stages of compiling C?",
+    "answer": "Preprocessing expands directives, compilation translates source to assembly or object code, and linking combines object files and libraries into an executable.",
+    "language": "C",
+    "category": "Compilation",
+    "difficulty": "Beginner",
+    "keywords": "c compilation preprocessing linking object executable",
+    "related_topics": "Compiler;Libraries;Build process"
+  },
+  {
+    "id": 66,
+    "question": "What is recursion in C?",
+    "answer": "A recursive function calls itself on a smaller problem and needs a base case to stop. Each call uses stack space, so deep recursion can overflow the stack.",
+    "language": "C",
+    "category": "Recursion",
+    "difficulty": "Intermediate",
+    "keywords": "c recursion function base case stack",
+    "related_topics": "Algorithms;Iteration;Stack"
+  },
+  {
+    "id": 67,
+    "question": "What are C storage classes?",
+    "answer": "auto is the usual local storage, static preserves lifetime or limits file visibility, extern refers to a definition elsewhere, and register is a request for fast storage.",
+    "language": "C",
+    "category": "Storage Classes",
+    "difficulty": "Intermediate",
+    "keywords": "c storage class auto static extern register lifetime",
+    "related_topics": "Scope;Linkage;Memory"
+  },
+  {
+    "id": 68,
+    "question": "What is an enum in C?",
+    "answer": "An enum defines named integer constants, improving readability for a fixed set of choices. The compiler treats the values as integer-compatible.",
+    "language": "C",
+    "category": "Enums",
+    "difficulty": "Beginner",
+    "keywords": "c enum enumeration named constants integer",
+    "related_topics": "Switch;Constants;Types"
+  },
+  {
+    "id": 69,
+    "question": "What is a union in C?",
+    "answer": "A union stores different members in the same memory location, so only the most recently written member is reliably active. Its size is at least the largest member.",
+    "language": "C",
+    "category": "Unions",
+    "difficulty": "Intermediate",
+    "keywords": "c union shared memory members size",
+    "related_topics": "Structs;Memory;Tagged unions"
+  },
+  {
+    "id": 70,
+    "question": "How are command-line arguments received in C?",
+    "answer": "main can receive argc, the number of arguments, and argv, an array of strings. argv[0] normally contains the program name.",
+    "language": "C",
+    "category": "Command Line",
+    "difficulty": "Intermediate",
+    "keywords": "c command line argc argv arguments main",
+    "related_topics": "Strings;Parsing;Programs"
+  },
+  {
+    "id": 71,
+    "question": "What does const mean in C?",
+    "answer": "const tells the compiler that code should not modify an object through that name. It helps document intent but does not make all referenced memory immutable.",
+    "language": "C",
+    "category": "Const",
+    "difficulty": "Beginner",
+    "keywords": "c const qualifier read only variables",
+    "related_topics": "Pointers;Safety;API design"
+  },
+  {
+    "id": 72,
+    "question": "Why are header files used in C?",
+    "answer": "Headers declare functions, types, and macros shared across source files. Include guards or #pragma once prevent duplicate declarations.",
+    "language": "C",
+    "category": "Header Files",
+    "difficulty": "Beginner",
+    "keywords": "c header files declarations include guards modules",
+    "related_topics": "Preprocessor;Compilation;Libraries"
+  },
+  {
+    "id": 73,
+    "question": "What is a Makefile used for?",
+    "answer": "A Makefile describes build targets, dependencies, and commands. make rebuilds only targets whose inputs changed, making multi-file C projects faster to compile.",
+    "language": "C",
+    "category": "Makefiles",
+    "difficulty": "Intermediate",
+    "keywords": "c makefile build targets dependencies make",
+    "related_topics": "Compilation;Linking;Automation"
+  },
+  {
+    "id": 74,
+    "question": "What causes a segmentation fault in C?",
+    "answer": "It happens when a program accesses invalid memory, such as dereferencing NULL, using a freed pointer, or writing past an array. Debuggers and sanitizers help locate it.",
+    "language": "C",
+    "category": "Segmentation Fault",
+    "difficulty": "Intermediate",
+    "keywords": "c segmentation fault invalid memory null pointer buffer overflow",
+    "related_topics": "Pointers;Debugging;Memory safety"
+  },
+  {
+    "id": 75,
+    "question": "What are macros in C?",
+    "answer": "A macro is preprocessor text substitution created with #define. Parenthesize parameters and prefer functions when type safety or debugging matters.",
+    "language": "C",
+    "category": "Macros",
+    "difficulty": "Intermediate",
+    "keywords": "c macro define substitution function safety",
+    "related_topics": "Preprocessor;Inline functions;Constants"
+  },
+  {
+    "id": 76,
+    "question": "What is SQL used for?",
+    "answer": "SQL is a language for defining, querying, and modifying data in relational database systems. It works with tables, rows, columns, and relationships.",
+    "language": "SQL",
+    "category": "Database",
+    "difficulty": "Beginner",
+    "keywords": "sql database relational tables queries data",
+    "related_topics": "Tables;Queries;RDBMS"
+  },
+  {
+    "id": 77,
+    "question": "How do you retrieve data with SQL?",
+    "answer": "Use SELECT to choose columns and FROM to name a table, for example SELECT name FROM students. WHERE limits rows to those matching a condition.",
+    "language": "SQL",
+    "category": "SELECT",
+    "difficulty": "Beginner",
+    "keywords": "sql select from retrieve rows columns",
+    "related_topics": "Where;Order by;Projection"
+  },
+  {
+    "id": 78,
+    "question": "What does a SQL WHERE clause do?",
+    "answer": "WHERE filters rows before they are returned or modified. Combine conditions with AND, OR, and NOT, and use parentheses to make precedence clear.",
+    "language": "SQL",
+    "category": "WHERE",
+    "difficulty": "Beginner",
+    "keywords": "sql where filter rows conditions and or not",
+    "related_topics": "Predicates;Operators;Filtering"
+  },
+  {
+    "id": 79,
+    "question": "How do you insert a row in SQL?",
+    "answer": "INSERT INTO table (columns) VALUES (values) adds rows. Naming columns explicitly makes the statement safer when the table schema changes.",
+    "language": "SQL",
+    "category": "INSERT",
+    "difficulty": "Beginner",
+    "keywords": "sql insert into values add rows",
+    "related_topics": "Tables;Transactions;Constraints"
+  },
+  {
+    "id": 80,
+    "question": "How does SQL UPDATE work?",
+    "answer": "UPDATE changes column values for rows that match an optional WHERE clause. Without WHERE, every row can be changed, so check the predicate carefully.",
+    "language": "SQL",
+    "category": "UPDATE",
+    "difficulty": "Beginner",
+    "keywords": "sql update set where modify rows",
+    "related_topics": "Delete;Transactions;Safety"
+  },
+  {
+    "id": 81,
+    "question": "How do you delete rows in SQL?",
+    "answer": "DELETE FROM table removes rows matching a WHERE condition. A missing WHERE clause deletes all rows, so use a transaction when possible.",
+    "language": "SQL",
+    "category": "DELETE",
+    "difficulty": "Beginner",
+    "keywords": "sql delete from where remove rows",
+    "related_topics": "Update;Transactions;Constraints"
+  },
+  {
+    "id": 82,
+    "question": "What is an INNER JOIN?",
+    "answer": "An INNER JOIN combines rows from two tables when their join condition matches. It is used to read related data normalized into separate tables.",
+    "language": "SQL",
+    "category": "JOINS",
+    "difficulty": "Intermediate",
+    "keywords": "sql inner join related tables matching rows",
+    "related_topics": "Left join;Keys;Relationships"
+  },
+  {
+    "id": 83,
+    "question": "What is a LEFT JOIN?",
+    "answer": "A LEFT JOIN returns every row from the left table and matching rows from the right table. Unmatched right-side columns are NULL.",
+    "language": "SQL",
+    "category": "JOINS",
+    "difficulty": "Intermediate",
+    "keywords": "sql left join outer join null rows",
+    "related_topics": "Inner join;Null;Relationships"
+  },
+  {
+    "id": 84,
+    "question": "How does GROUP BY work in SQL?",
+    "answer": "GROUP BY puts rows with the same grouping values into summary groups. Aggregate functions such as COUNT and AVG then calculate one result per group.",
+    "language": "SQL",
+    "category": "GROUP BY",
+    "difficulty": "Intermediate",
+    "keywords": "sql group by aggregate count avg summary",
+    "related_topics": "Having;Functions;Reports"
+  },
+  {
+    "id": 85,
+    "question": "What is the difference between WHERE and HAVING?",
+    "answer": "WHERE filters individual rows before grouping. HAVING filters groups after aggregate calculations, such as groups whose COUNT is greater than five.",
+    "language": "SQL",
+    "category": "HAVING",
+    "difficulty": "Intermediate",
+    "keywords": "sql having where group aggregate filter",
+    "related_topics": "Group by;Count;Queries"
+  },
+  {
+    "id": 86,
+    "question": "How do you sort SQL results?",
+    "answer": "ORDER BY sorts result rows by one or more columns. ASC is ascending and DESC is descending; use a stable secondary column when order matters.",
+    "language": "SQL",
+    "category": "ORDER BY",
+    "difficulty": "Beginner",
+    "keywords": "sql order by asc desc sort results",
+    "related_topics": "Select;Limit;Pagination"
+  },
+  {
+    "id": 87,
+    "question": "How is NULL handled in SQL?",
+    "answer": "NULL represents an unknown or missing value, not zero or an empty string. Use IS NULL or IS NOT NULL because comparisons with NULL produce unknown.",
+    "language": "SQL",
+    "category": "NULL",
+    "difficulty": "Beginner",
+    "keywords": "sql null missing is null unknown values",
+    "related_topics": "Coalesce;Three-valued logic;Defaults"
+  },
+  {
+    "id": 88,
+    "question": "What are SQL constraints?",
+    "answer": "Constraints enforce data rules. PRIMARY KEY identifies rows, FOREIGN KEY preserves relationships, UNIQUE prevents duplicates, NOT NULL requires a value, and CHECK validates a condition.",
+    "language": "SQL",
+    "category": "Constraints",
+    "difficulty": "Intermediate",
+    "keywords": "sql constraints primary key foreign key unique not null check",
+    "related_topics": "Integrity;Relationships;Tables"
+  },
+  {
+    "id": 89,
+    "question": "What is a primary key?",
+    "answer": "A primary key uniquely identifies each row and cannot be NULL. It may be one column or a combination of columns.",
+    "language": "SQL",
+    "category": "Primary Key",
+    "difficulty": "Beginner",
+    "keywords": "sql primary key unique row identifier",
+    "related_topics": "Foreign key;Indexes;Composite keys"
+  },
+  {
+    "id": 90,
+    "question": "What is a foreign key?",
+    "answer": "A foreign key column references a key in another table, helping enforce referential integrity. It prevents child rows from pointing to missing parents unless rules allow it.",
+    "language": "SQL",
+    "category": "Foreign Key",
+    "difficulty": "Intermediate",
+    "keywords": "sql foreign key reference referential integrity relationships",
+    "related_topics": "Joins;Primary key;Cascade"
+  },
+  {
+    "id": 91,
+    "question": "What is database normalization?",
+    "answer": "Normalization organizes data to reduce duplication and update anomalies. Common normal forms separate repeating groups and ensure attributes depend on the correct key.",
+    "language": "SQL",
+    "category": "Normalization",
+    "difficulty": "Advanced",
+    "keywords": "sql normalization redundancy update anomalies schema",
+    "related_topics": "Tables;Relationships;Denormalization"
+  },
+  {
+    "id": 92,
+    "question": "What is a SQL transaction?",
+    "answer": "A transaction groups statements into one logical unit. COMMIT makes changes durable and ROLLBACK undoes them, supporting reliable multi-step updates.",
+    "language": "SQL",
+    "category": "Transactions",
+    "difficulty": "Intermediate",
+    "keywords": "sql transaction commit rollback atomic changes",
+    "related_topics": "ACID;Isolation;Errors"
+  },
+  {
+    "id": 93,
+    "question": "What does ACID mean in databases?",
+    "answer": "Atomicity makes a transaction all-or-nothing, consistency preserves rules, isolation controls concurrent visibility, and durability preserves committed data.",
+    "language": "SQL",
+    "category": "ACID",
+    "difficulty": "Advanced",
+    "keywords": "sql acid atomicity consistency isolation durability",
+    "related_topics": "Transactions;Concurrency;Reliability"
+  },
+  {
+    "id": 94,
+    "question": "What is a database index?",
+    "answer": "An index is an auxiliary structure that speeds searches and ordering on selected columns. It uses storage and can slow writes, so index measured access patterns.",
+    "language": "SQL",
+    "category": "Indexes",
+    "difficulty": "Advanced",
+    "keywords": "sql index query performance search columns",
+    "related_topics": "Explain;Optimization;Constraints"
+  },
+  {
+    "id": 95,
+    "question": "What is a SQL view?",
+    "answer": "A view is a named query presented like a virtual table. It can simplify repeated joins and restrict visible columns, though complex views may affect performance.",
+    "language": "SQL",
+    "category": "Views",
+    "difficulty": "Intermediate",
+    "keywords": "sql view virtual table saved query security",
+    "related_topics": "Select;Joins;Permissions"
+  },
+  {
+    "id": 96,
+    "question": "What is a SQL subquery?",
+    "answer": "A subquery is a query nested inside another statement. It can provide a value, a set for IN, or a temporary result for EXISTS and joins.",
+    "language": "SQL",
+    "category": "Subqueries",
+    "difficulty": "Intermediate",
+    "keywords": "sql subquery nested query exists in",
+    "related_topics": "Joins;CTE;Filtering"
+  },
+  {
+    "id": 97,
+    "question": "What is a common table expression?",
+    "answer": "A CTE uses WITH to name a temporary result for one statement. It improves readability and can express recursive queries for hierarchical data.",
+    "language": "SQL",
+    "category": "CTE",
+    "difficulty": "Advanced",
+    "keywords": "sql cte with common table expression recursive",
+    "related_topics": "Subqueries;Reports;Hierarchy"
+  },
+  {
+    "id": 98,
+    "question": "What are aggregate functions in SQL?",
+    "answer": "COUNT, SUM, AVG, MIN, and MAX combine values from multiple rows into a summary. NULL handling varies, so understand which values each function ignores.",
+    "language": "SQL",
+    "category": "Aggregate Functions",
+    "difficulty": "Beginner",
+    "keywords": "sql aggregate functions count sum avg min max",
+    "related_topics": "Group by;Null;Reports"
+  },
+  {
+    "id": 99,
+    "question": "What is SQL injection and how is it prevented?",
+    "answer": "SQL injection occurs when untrusted text changes a query. Parameterized statements or prepared queries keep data separate from SQL code and are the primary defense.",
+    "language": "SQL",
+    "category": "SQL Injection",
+    "difficulty": "Advanced",
+    "keywords": "sql injection security prepared statements parameters",
+    "related_topics": "Validation;Authentication;Security"
+  },
+  {
+    "id": 100,
+    "question": "What is a database schema?",
+    "answer": "A schema describes tables, columns, data types, constraints, indexes, and relationships. It is the structural contract for the stored data.",
+    "language": "SQL",
+    "category": "Database Schema",
+    "difficulty": "Intermediate",
+    "keywords": "sql database schema tables columns constraints relationships",
+    "related_topics": "Normalization;Migrations;Design"
+  },
+  {
+    "id": 101,
+    "question": "What is HTML?",
+    "answer": "HTML is a markup language that structures web content with elements such as headings, paragraphs, links, images, and forms.",
+    "language": "HTML/CSS",
+    "category": "HTML Basics",
+    "difficulty": "Beginner",
+    "keywords": "html markup language elements structure web page",
+    "related_topics": "CSS;DOM;Accessibility"
+  },
+  {
+    "id": 102,
+    "question": "Why use semantic HTML elements?",
+    "answer": "Semantic elements such as header, nav, main, article, and footer communicate meaning to browsers, assistive technology, and developers better than generic divs.",
+    "language": "HTML/CSS",
+    "category": "Semantic HTML",
+    "difficulty": "Beginner",
+    "keywords": "html semantic elements header nav main article accessibility",
+    "related_topics": "Accessibility;Document structure;SEO"
+  },
+  {
+    "id": 103,
+    "question": "How do hyperlinks work in HTML?",
+    "answer": "The a element creates a link with href pointing to a URL or document fragment. Descriptive link text helps keyboard and screen-reader users.",
+    "language": "HTML/CSS",
+    "category": "Links",
+    "difficulty": "Beginner",
+    "keywords": "html anchor link href url navigation",
+    "related_topics": "URLs;Accessibility;Images"
+  },
+  {
+    "id": 104,
+    "question": "How do you add an image in HTML?",
+    "answer": "Use img with a src for the resource and meaningful alt text. The alt text describes the image when it cannot be seen or is decorative when empty.",
+    "language": "HTML/CSS",
+    "category": "Images",
+    "difficulty": "Beginner",
+    "keywords": "html img src alt image accessibility",
+    "related_topics": "Responsive images;Figure;Loading"
+  },
+  {
+    "id": 105,
+    "question": "What is an HTML form?",
+    "answer": "A form groups controls for collecting input. label, input, select, textarea, and button create an accessible submission interface, and name identifies submitted values.",
+    "language": "HTML/CSS",
+    "category": "Forms",
+    "difficulty": "Intermediate",
+    "keywords": "html form input label select textarea button",
+    "related_topics": "Validation;Accessibility;HTTP"
+  },
+  {
+    "id": 106,
+    "question": "When should HTML tables be used?",
+    "answer": "Use a table for genuinely tabular data, with caption, thead, tbody, th, and td. Do not use tables for page layout.",
+    "language": "HTML/CSS",
+    "category": "Tables",
+    "difficulty": "Beginner",
+    "keywords": "html table thead tbody th td tabular data",
+    "related_topics": "Accessibility;CSS;Data"
+  },
+  {
+    "id": 107,
+    "question": "What is CSS?",
+    "answer": "CSS describes the presentation of HTML, including color, typography, spacing, layout, and responsive behavior. Rules select elements and assign property values.",
+    "language": "HTML/CSS",
+    "category": "CSS Basics",
+    "difficulty": "Beginner",
+    "keywords": "css cascading style sheets selectors properties layout",
+    "related_topics": "HTML;Selectors;Responsive design"
+  },
+  {
+    "id": 108,
+    "question": "What are CSS selectors?",
+    "answer": "Selectors target elements by type, class, id, attribute, state, or relationship. Classes are usually reusable; ids should be unique.",
+    "language": "HTML/CSS",
+    "category": "Selectors",
+    "difficulty": "Beginner",
+    "keywords": "css selectors class id attribute pseudo class",
+    "related_topics": "Specificity;Cascade;DOM"
+  },
+  {
+    "id": 109,
+    "question": "What is the CSS box model?",
+    "answer": "Every element has content, padding, border, and margin areas. box-sizing: border-box makes declared width include padding and border, simplifying layout.",
+    "language": "HTML/CSS",
+    "category": "Box Model",
+    "difficulty": "Beginner",
+    "keywords": "css box model margin padding border content sizing",
+    "related_topics": "Layout;Width;Spacing"
+  },
+  {
+    "id": 110,
+    "question": "What is CSS Flexbox?",
+    "answer": "Flexbox lays out items along a main axis and cross axis. display:flex enables alignment with justify-content, align-items, gap, and flex properties.",
+    "language": "HTML/CSS",
+    "category": "Flexbox",
+    "difficulty": "Intermediate",
+    "keywords": "css flexbox display flex justify content align items",
+    "related_topics": "Layout;Grid;Responsive design"
+  },
+  {
+    "id": 111,
+    "question": "What is CSS Grid?",
+    "answer": "Grid creates two-dimensional row and column layouts. Define tracks with grid-template-columns and use gap, areas, or auto-placement for structure.",
+    "language": "HTML/CSS",
+    "category": "Grid",
+    "difficulty": "Intermediate",
+    "keywords": "css grid columns rows gap layout two dimensional",
+    "related_topics": "Flexbox;Responsive design;Cards"
+  },
+  {
+    "id": 112,
+    "question": "How do media queries help responsive design?",
+    "answer": "Media queries apply CSS only when conditions such as viewport width are true. They let layouts adapt from small screens to large screens.",
+    "language": "HTML/CSS",
+    "category": "Responsive Design",
+    "difficulty": "Intermediate",
+    "keywords": "css media queries responsive viewport breakpoints",
+    "related_topics": "Mobile;Grid;Flexbox"
+  },
+  {
+    "id": 113,
+    "question": "What does cascading mean in CSS?",
+    "answer": "When multiple rules match, the cascade considers origin, importance, specificity, and source order. More specific or later rules can override earlier declarations.",
+    "language": "HTML/CSS",
+    "category": "Cascade",
+    "difficulty": "Intermediate",
+    "keywords": "css cascade specificity inheritance source order",
+    "related_topics": "Selectors;Inheritance;Debugging"
+  },
+  {
+    "id": 114,
+    "question": "How is CSS specificity calculated?",
+    "answer": "Specificity gives weight to selectors: inline styles are strongest, then ids, classes/attributes/pseudo-classes, then element selectors. Avoid overly specific selectors.",
+    "language": "HTML/CSS",
+    "category": "Specificity",
+    "difficulty": "Intermediate",
+    "keywords": "css specificity selectors id class element cascade",
+    "related_topics": "Cascade;Maintainability;Overrides"
+  },
+  {
+    "id": 115,
+    "question": "What are CSS position values?",
+    "answer": "static is normal flow; relative offsets an element from its position; absolute positions relative to a containing block; fixed attaches to the viewport; sticky switches based on scroll.",
+    "language": "HTML/CSS",
+    "category": "Positioning",
+    "difficulty": "Intermediate",
+    "keywords": "css position static relative absolute fixed sticky",
+    "related_topics": "Layout;Z-index;Scrolling"
+  },
+  {
+    "id": 116,
+    "question": "How can HTML and CSS support accessibility?",
+    "answer": "Use semantic structure, visible focus states, sufficient contrast, keyboard-friendly controls, labels, alt text, and responsive text. Never communicate meaning by color alone.",
+    "language": "HTML/CSS",
+    "category": "Accessibility",
+    "difficulty": "Intermediate",
+    "keywords": "html css accessibility focus contrast keyboard semantic",
+    "related_topics": "Forms;ARIA;Responsive design"
+  },
+  {
+    "id": 117,
+    "question": "How do you style text with CSS?",
+    "answer": "Use font-family, font-size, font-weight, line-height, letter-spacing, and color. Prefer readable line lengths and a clear hierarchy.",
+    "language": "HTML/CSS",
+    "category": "Typography",
+    "difficulty": "Beginner",
+    "keywords": "css typography font family size weight line height",
+    "related_topics": "Web fonts;Accessibility;Design"
+  },
+  {
+    "id": 118,
+    "question": "What are CSS custom properties?",
+    "answer": "Custom properties such as --accent: teal store reusable values and are read with var(--accent). They can be changed at a scope or at runtime.",
+    "language": "HTML/CSS",
+    "category": "CSS Variables",
+    "difficulty": "Intermediate",
+    "keywords": "css custom properties variables var reusable theme",
+    "related_topics": "Theming;Cascade;Design tokens"
+  },
+  {
+    "id": 119,
+    "question": "What are CSS pseudo-classes?",
+    "answer": "Pseudo-classes select a state or condition, such as :hover, :focus-visible, :checked, or :first-child, without adding another class to the markup.",
+    "language": "HTML/CSS",
+    "category": "Pseudo Classes",
+    "difficulty": "Beginner",
+    "keywords": "css pseudo classes hover focus checked state",
+    "related_topics": "Selectors;Accessibility;Interaction"
+  },
+  {
+    "id": 120,
+    "question": "What does a CSS transition do?",
+    "answer": "transition animates a property change between states, such as a button color on hover. Keep duration short and respect prefers-reduced-motion for accessibility.",
+    "language": "HTML/CSS",
+    "category": "Transitions",
+    "difficulty": "Beginner",
+    "keywords": "css transition hover animation duration reduced motion",
+    "related_topics": "Transforms;Accessibility;Interaction"
+  },
+  {
+    "id": 121,
+    "question": "What are CSS transforms?",
+    "answer": "transform changes an element visually with translate, scale, rotate, or skew without changing normal document flow. It is often efficient for motion.",
+    "language": "HTML/CSS",
+    "category": "Transforms",
+    "difficulty": "Intermediate",
+    "keywords": "css transform translate scale rotate animation",
+    "related_topics": "Transitions;Performance;Layout"
+  },
+  {
+    "id": 122,
+    "question": "How does CSS overflow work?",
+    "answer": "The overflow property controls content that exceeds a box: visible, hidden, clip, scroll, or auto. Use it carefully because clipped content can harm accessibility.",
+    "language": "HTML/CSS",
+    "category": "Overflow",
+    "difficulty": "Beginner",
+    "keywords": "css overflow hidden scroll auto content",
+    "related_topics": "Layout;Scrolling;Accessibility"
+  },
+  {
+    "id": 123,
+    "question": "What CSS units should be used?",
+    "answer": "px is fixed, while rem relates to the root font size, em to the current element, and percentages or viewport units adapt to context. Combine units intentionally.",
+    "language": "HTML/CSS",
+    "category": "Units",
+    "difficulty": "Beginner",
+    "keywords": "css units px rem em percent vw vh responsive",
+    "related_topics": "Typography;Responsive design;Layout"
+  },
+  {
+    "id": 124,
+    "question": "What is the relationship between HTML and the DOM?",
+    "answer": "The browser parses HTML into a Document Object Model tree. CSS selects nodes in that tree, and JavaScript can read or modify them.",
+    "language": "HTML/CSS",
+    "category": "DOM",
+    "difficulty": "Intermediate",
+    "keywords": "html dom document object model browser tree",
+    "related_topics": "CSS;JavaScript;Events"
+  },
+  {
+    "id": 125,
+    "question": "How does HTML help SEO?",
+    "answer": "Clear titles, headings, semantic landmarks, descriptive links, alt text, and useful metadata help search engines understand page content. Good structure also improves accessibility.",
+    "language": "HTML/CSS",
+    "category": "SEO",
+    "difficulty": "Intermediate",
+    "keywords": "html seo title headings metadata semantic content",
+    "related_topics": "Accessibility;Links;Metadata"
+  },
+  {
+    "id": 126,
+    "question": "How do let and const work in JavaScript?",
+    "answer": "let declares a block-scoped variable that can be reassigned. const declares a block-scoped binding that cannot be reassigned, although referenced objects can still be mutable.",
+    "language": "JavaScript",
+    "category": "Variables",
+    "difficulty": "Beginner",
+    "keywords": "javascript let const variables block scope",
+    "related_topics": "Var;Scope;Data types"
+  },
+  {
+    "id": 127,
+    "question": "What are JavaScript data types?",
+    "answer": "Primitive types include string, number, bigint, boolean, undefined, symbol, and null. Objects, arrays, and functions are reference values.",
+    "language": "JavaScript",
+    "category": "Data Types",
+    "difficulty": "Beginner",
+    "keywords": "javascript data types string number boolean null undefined object",
+    "related_topics": "Variables;Type coercion;Objects"
+  },
+  {
+    "id": 128,
+    "question": "What operators are used in JavaScript?",
+    "answer": "JavaScript supports arithmetic, comparison, logical, assignment, ternary, nullish coalescing, optional chaining, and bitwise operators. Prefer === for strict equality.",
+    "language": "JavaScript",
+    "category": "Operators",
+    "difficulty": "Beginner",
+    "keywords": "javascript operators arithmetic comparison logical strict equality",
+    "related_topics": "Expressions;Conditions;Type coercion"
+  },
+  {
+    "id": 129,
+    "question": "How do if and switch work in JavaScript?",
+    "answer": "if evaluates conditions and may use else if and else. switch compares one expression against case values and should usually include a default branch.",
+    "language": "JavaScript",
+    "category": "Conditionals",
+    "difficulty": "Beginner",
+    "keywords": "javascript if else switch case conditional",
+    "related_topics": "Boolean logic;Control flow;Expressions"
+  },
+  {
+    "id": 130,
+    "question": "What loops are available in JavaScript?",
+    "answer": "for, while, and do-while repeat statements. for...of iterates values, while for...in iterates enumerable keys and is usually for object properties.",
+    "language": "JavaScript",
+    "category": "Loops",
+    "difficulty": "Beginner",
+    "keywords": "javascript loops for while for of for in iteration",
+    "related_topics": "Arrays;Objects;Break"
+  },
+  {
+    "id": 131,
+    "question": "What is a function in JavaScript?",
+    "answer": "A function packages reusable behavior and may accept parameters and return a value. Functions are first-class values, so they can be stored, passed, and returned.",
+    "language": "JavaScript",
+    "category": "Functions",
+    "difficulty": "Beginner",
+    "keywords": "javascript function parameters return first class",
+    "related_topics": "Arrow functions;Callbacks;Scope"
+  },
+  {
+    "id": 132,
+    "question": "How do JavaScript arrays work?",
+    "answer": "An array is an ordered, zero-indexed collection. Common methods include push, slice, map, filter, find, and reduce.",
+    "language": "JavaScript",
+    "category": "Arrays",
+    "difficulty": "Beginner",
+    "keywords": "javascript arrays index map filter reduce collection",
+    "related_topics": "Loops;Objects;Methods"
+  },
+  {
+    "id": 133,
+    "question": "How do you manipulate strings in JavaScript?",
+    "answer": "Strings are immutable text values. Use template literals, trim, includes, split, replace, and toUpperCase or toLowerCase to create new strings.",
+    "language": "JavaScript",
+    "category": "Strings",
+    "difficulty": "Beginner",
+    "keywords": "javascript string template literal split replace immutable",
+    "related_topics": "Arrays;Formatting;Regex"
+  },
+  {
+    "id": 134,
+    "question": "What is an object in JavaScript?",
+    "answer": "An object stores key-value properties and methods. Access properties with dot or bracket notation, and use destructuring to extract values.",
+    "language": "JavaScript",
+    "category": "Objects",
+    "difficulty": "Beginner",
+    "keywords": "javascript object properties methods dot bracket destructuring",
+    "related_topics": "Arrays;JSON;Classes"
+  },
+  {
+    "id": 135,
+    "question": "What is the DOM in JavaScript?",
+    "answer": "The DOM is the browser representation of an HTML document. JavaScript can select nodes, change text or attributes, create elements, and respond to events.",
+    "language": "JavaScript",
+    "category": "DOM",
+    "difficulty": "Intermediate",
+    "keywords": "javascript dom document queryselector html nodes",
+    "related_topics": "Events;HTML;Rendering"
+  },
+  {
+    "id": 136,
+    "question": "How do event listeners work?",
+    "answer": "addEventListener registers a function for an event such as click or input. The handler receives an event object and can inspect the target or prevent default behavior.",
+    "language": "JavaScript",
+    "category": "Events",
+    "difficulty": "Intermediate",
+    "keywords": "javascript events addEventListener click input handler",
+    "related_topics": "DOM;Forms;Bubbling"
+  },
+  {
+    "id": 137,
+    "question": "What is a Promise in JavaScript?",
+    "answer": "A Promise represents a future result and can be pending, fulfilled, or rejected. then and catch handle outcomes, while async functions use await for readable asynchronous code.",
+    "language": "JavaScript",
+    "category": "Async",
+    "difficulty": "Intermediate",
+    "keywords": "javascript promise async await future result",
+    "related_topics": "Fetch;Errors;Callbacks"
+  },
+  {
+    "id": 138,
+    "question": "How does fetch retrieve data?",
+    "answer": "fetch sends an HTTP request and returns a Promise for a Response. Check response.ok, parse the body such as response.json(), and catch network errors.",
+    "language": "JavaScript",
+    "category": "Fetch",
+    "difficulty": "Intermediate",
+    "keywords": "javascript fetch http response json api",
+    "related_topics": "Promises;Async;REST"
+  },
+  {
+    "id": 139,
+    "question": "What are JSON.parse and JSON.stringify?",
+    "answer": "JSON.parse converts JSON text into a JavaScript value. JSON.stringify converts a value to JSON text for storage or transmission.",
+    "language": "JavaScript",
+    "category": "JSON",
+    "difficulty": "Beginner",
+    "keywords": "javascript json parse stringify serialization api",
+    "related_topics": "Objects;Fetch;Storage"
+  },
+  {
+    "id": 140,
+    "question": "How do JavaScript classes work?",
+    "answer": "A class is syntax for creating objects with constructors and methods. extends creates inheritance and super calls parent behavior.",
+    "language": "JavaScript",
+    "category": "Classes",
+    "difficulty": "Intermediate",
+    "keywords": "javascript class constructor extends super object oriented",
+    "related_topics": "Objects;Inheritance;Methods"
+  },
+  {
+    "id": 141,
+    "question": "What is a closure in JavaScript?",
+    "answer": "A closure is a function together with access to variables from its surrounding lexical scope, even after that outer function returns.",
+    "language": "JavaScript",
+    "category": "Closures",
+    "difficulty": "Advanced",
+    "keywords": "javascript closure lexical scope function private state",
+    "related_topics": "Functions;Scope;Callbacks"
+  },
+  {
+    "id": 142,
+    "question": "What is hoisting in JavaScript?",
+    "answer": "Declarations are processed before execution, but behavior differs: var is initialized as undefined, while let and const are unavailable in their temporal dead zone until declared.",
+    "language": "JavaScript",
+    "category": "Hoisting",
+    "difficulty": "Intermediate",
+    "keywords": "javascript hoisting var let const temporal dead zone",
+    "related_topics": "Scope;Variables;Execution"
+  },
+  {
+    "id": 143,
+    "question": "What are JavaScript modules?",
+    "answer": "Modules split code into files with explicit export and import statements. They create private module scope and make dependencies clear.",
+    "language": "JavaScript",
+    "category": "Modules",
+    "difficulty": "Intermediate",
+    "keywords": "javascript modules import export es modules scope",
+    "related_topics": "Bundlers;Packages;Architecture"
+  },
+  {
+    "id": 144,
+    "question": "How do try catch blocks work in JavaScript?",
+    "answer": "try runs code that may throw, catch receives the error, and finally runs cleanup. Throw meaningful Error objects rather than arbitrary strings.",
+    "language": "JavaScript",
+    "category": "Error Handling",
+    "difficulty": "Intermediate",
+    "keywords": "javascript try catch finally throw error handling",
+    "related_topics": "Promises;Debugging;Validation"
+  },
+  {
+    "id": 145,
+    "question": "What is the JavaScript event loop?",
+    "answer": "JavaScript runs synchronous code on a call stack. The event loop moves ready callbacks from task or microtask queues to the stack when it is empty, enabling non-blocking I/O.",
+    "language": "JavaScript",
+    "category": "Event Loop",
+    "difficulty": "Advanced",
+    "keywords": "javascript event loop call stack queue microtask asynchronous",
+    "related_topics": "Promises;Timers;Concurrency"
+  },
+  {
+    "id": 146,
+    "question": "How does localStorage work?",
+    "answer": "localStorage stores string key-value pairs in the browser and persists across sessions for the same origin. JSON.stringify and JSON.parse help store structured data.",
+    "language": "JavaScript",
+    "category": "Local Storage",
+    "difficulty": "Beginner",
+    "keywords": "javascript localstorage browser persistence key value",
+    "related_topics": "JSON;Session storage;Privacy"
+  },
+  {
+    "id": 147,
+    "question": "What is type coercion in JavaScript?",
+    "answer": "Type coercion converts values during operations, sometimes implicitly. Strict equality avoids many surprises by comparing type and value without conversion.",
+    "language": "JavaScript",
+    "category": "Type Coercion",
+    "difficulty": "Intermediate",
+    "keywords": "javascript type coercion strict equality conversion",
+    "related_topics": "Operators;Types;Validation"
+  },
+  {
+    "id": 148,
+    "question": "What are regular expressions used for?",
+    "answer": "Regular expressions describe text patterns for searching, validating, and replacing. They are useful for simple patterns but should not replace a parser for complex languages.",
+    "language": "JavaScript",
+    "category": "Regular Expressions",
+    "difficulty": "Intermediate",
+    "keywords": "javascript regex regular expression pattern match replace",
+    "related_topics": "Strings;Validation;Parsing"
+  },
+  {
+    "id": 149,
+    "question": "What are Map and Set in JavaScript?",
+    "answer": "Map stores key-value pairs with keys of any type. Set stores unique values. They provide clear semantics and useful methods for membership and iteration.",
+    "language": "JavaScript",
+    "category": "Map and Set",
+    "difficulty": "Intermediate",
+    "keywords": "javascript map set unique keys collection",
+    "related_topics": "Objects;Arrays;Iteration"
+  },
+  {
+    "id": 150,
+    "question": "How can JavaScript performance be improved?",
+    "answer": "Measure first, then reduce unnecessary work, batch DOM updates, avoid blocking the main thread, load code lazily, and use efficient data structures.",
+    "language": "JavaScript",
+    "category": "Performance",
+    "difficulty": "Advanced",
+    "keywords": "javascript performance optimize dom lazy loading main thread",
+    "related_topics": "Event loop;Profiling;Web workers"
+  }
+]
